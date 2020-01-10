@@ -1,29 +1,22 @@
 # vue-npm-demo
 
-## Project setup
+### Install
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+npm install vue-npm-demos
+// OR
+yarn add vue-npm-demos
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
+### Using
+
+```javascript
+// main.ts
+import NpmDemo from 'vue-npm-demos'
+import 'vue-npm-demos/lib/index.css'
+Vue.use(NpmDemo)
 ```
 
-### Run your tests
+```html
+// ***.vue
+<npm-demo :title="title"></npm-demo>
 ```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

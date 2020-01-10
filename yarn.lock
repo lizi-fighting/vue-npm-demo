@@ -8167,6 +8167,38 @@ vue-loader@^15.7.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-npm-demos@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vue-npm-demos/-/vue-npm-demos-0.1.0.tgz#c398214f1e27bbc9f55aff91d1ae754fe18b8b5d"
+  integrity sha512-lDz0aRkjW0A9E1CAHQtJUt99RSf0YRGri3PwZDVkbRKlcjAzgjdJhHphaxd2mYFsDRcHMNBcPGnSso3SZhkrVQ==
+  dependencies:
+    core-js "^3.4.4"
+    vue "^2.6.10"
+    vue-class-component "^7.0.2"
+    vue-property-decorator "^8.3.0"
+
+vue-npm-demos@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-npm-demos/-/vue-npm-demos-0.1.1.tgz#478df9db9700312380ed9b82b8c34a30ccbfdd07"
+  integrity sha512-cvFEProH1FKdcjHLVX3EnhR7scUzvOg0h7EoyCiwF9ADSMwMXiMmc98/zwHcVfhBOmBY8rtTHs1yCpXJThhTIg==
+  dependencies:
+    core-js "^3.4.4"
+    vue "^2.6.10"
+    vue-class-component "^7.0.2"
+    vue-npm-demos "^0.1.0"
+    vue-property-decorator "^8.3.0"
+
+vue-npm-demos@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vue-npm-demos/-/vue-npm-demos-0.1.2.tgz#cfbe67d7cf62054b07f07e2d4ddcd6e438eb8c33"
+  integrity sha512-2wf9rOk7oE+8P9UUBIuWHUZNgPp8JT2Aw3k0kBQkbp/SssDA/W3G9Y/KLXZn65lPiGZAn2MAEjEqiMWhN6x0bg==
+  dependencies:
+    core-js "^3.4.4"
+    vue "^2.6.10"
+    vue-class-component "^7.0.2"
+    vue-npm-demos "^0.1.1"
+    vue-property-decorator "^8.3.0"
+
 vue-property-decorator@^8.3.0:
   version "8.3.0"
   resolved "https://registry.npm.taobao.org/vue-property-decorator/download/vue-property-decorator-8.3.0.tgz?cache=0&sync_timestamp=1571289520041&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-property-decorator%2Fdownload%2Fvue-property-decorator-8.3.0.tgz#536f027dc7d626f37c8d85a2dc02f0a6cb979440"
