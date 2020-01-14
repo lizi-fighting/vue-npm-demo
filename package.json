@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --dest lib --target lib --name index ./src/packages/index.ts"
+    "lib": "vue-cli-service build --dest lib --target lib --name index ./src/packages/index.ts",
+    "pub": "npm publish"
   },
   "main": "lib/index.umd.min.js",
   "typings": "types/index.d.ts",
