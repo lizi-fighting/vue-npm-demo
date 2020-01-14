@@ -7,7 +7,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --dest lib --target lib --name index ./src/packages/index.ts",
-    "pub": "npm run lib && npm publish"
+    "pub": "npm publish"
+  },
+  "publishConfig": {
+    "registry": "http://10.201.71.204:8081/repository/npm/"
   },
   "main": "lib/index.umd.min.js",
   "typings": "types/index.d.ts",
